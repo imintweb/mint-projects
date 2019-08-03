@@ -35,7 +35,6 @@ p {
 .header-logo img {
 	width: 64px;
 	height: 64px;
-	opacity: .5;
 }
 .header-title {
 	font-size: var(--headline-h2);
