@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet"/>
+	<link rel="stylesheet" href="../assets/style.css"/>
+	<link rel="stylesheet" href="../../cdn/feedlist/krs.feedList.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/karasu-themes/Karasu-layout@latest/dist/krs-layout.min.css"/>
+	<title>Feed de entradas recientes para blogger</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<header>
+	<h1>Feed de entradas recientes para blogger</h1>
+	<h3>Desarrollado por Karasu themes</h3>
+</header>
+
+<div class="container desktop">
+	<div class="container-action">
+		<div class="row wrap center">
+			<div class="col-4 col-md-6 col-lg-3">
+				<a href="https://github.com/Karasu-themes/krs-feedList" target="_blank" class="brand">
+					<div class="brand-icon"><i class="fab fa-github"></i></div>
+					<div class="brand-text">ver repositorio en github</div>
+				</a>
+			</div>
+			<div class="col-4 col-md-6 col-lg-3">
+				<a href="https://codepen.io/karasuthemes/full/QXvLOy" target="_blank" class="brand">
+					<div class="brand-icon"><i class="fab fa-codepen"></i></div>
+					<div class="brand-text">Ver en codepen</div>
+				</a>
+			</div>
+			<div class="col-4 col-md-6 col-lg-3">
+				<a href="#" class="brand">
+					<div class="brand-icon"><i class="fa fa-edit"></i></div>
+					<div class="brand-text">Ver post</div>
+				</a>
+			</div>
+		</div>
+
+	</div>
+	<div class="container-headline">
+		<h2 id="layout">Layout</h2>
+		<span>Diseños disponibles</span>
+		<div class="container-headline__messages">
+			Los diseños mostrados a continuación, son únicamente de muestra y no representan el funcionamiento original del complemento <strong>FeedList</strong> desarrollado por <strong>Karasu themes</strong>, puedes ver el código en vivo en <strong>codepen</strong> para ver como trabaja en tiempo real.
+		</div>
+	</div>
+	<div class="row wrap center">
+		<div class="col-12 col-md-6 col-lg-4">
+			<div class="app">
+				<div class="app-topbars">Por defecto</div>
+				<div class="app-container">
+					<div class="krs-feedList default">
+						<div class="krs-feedList-item">
+							<div class="krs-feedList-item__image">
+								<img src="../../assets/img/image-default.svg" alt="Reacciones de facebook para Blogger">
+							</div>
+							<div class="krs-feedList-item__content">
+								<a href="#" class="krs-feedList-item__title">Título de la entrada</a>
+								<p class="krs-feedList-item__summary">Lorem ipsum dolor sit amet consectetur adipisicing e...</p>
+							</div>
+						</div>
+						<div class="krs-feedList-item">
+							<div class="krs-feedList-item__image">
+								<img src="../../assets/img/image-default.svg" alt="Reacciones de facebook para Blogger">
+							</div>
+							<div class="krs-feedList-item__content">
+								<a href="#" class="krs-feedList-item__title">Título de la entrada</a>
+								<p class="krs-feedList-item__summary">Lorem ipsum dolor sit amet consectetur adipisicing e...</p>
+							</div>
+						</div>
+						<div class="krs-feedList-item">
+							<div class="krs-feedList-item__image">
+								<img src="../../assets/img/image-default.svg" alt="Reacciones de facebook para Blogger">
+							</div>
+							<div class="krs-feedList-item__content">
+								<a href="#" class="krs-feedList-item__title">Título de la entrada</a>
+								<p class="krs-feedList-item__summary">Lorem ipsum dolor sit amet consectetur adipisicing e...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-6 col-lg-4">
+			<div class="app">
+				<div class="app-topbars">Modo "overlay"</div>
+				<div class="app-container">
+					<div id="krs-feedList2">
+						<div class="krs-feedList overlay">
+							<div class="krs-feedList-item">
+								<div class="krs-feedList-item__image">
+									<a href="#"><img src="../../assets/img/image-default2.svg" alt=""></a>
+									<span class="krs-feedList-item__title">Título de la entrada</span>
+								</div>
+								<div class="krs-feedList-item__content">
+									<div class="krs-feedList-item__meta">
+										<span class="tags">category</span>
+										<span class="timestamp"> 15/06/2019</span>
+									</div>
+									<p class="krs-feedList-item__summary">
+										Lorem ipsum dolor sit amet, consectetur adipisicing.
+									</p>
+								</div>
+							</div>
+							<div class="krs-feedList-item">
+								<div class="krs-feedList-item__image">
+									<a href="#"><img src="../../assets/img/image-default2.svg" alt=""></a>
+									<span class="krs-feedList-item__title">Título de la entrada</span>
+								</div>
+								<div class="krs-feedList-item__content">
+									<div class="krs-feedList-item__meta">
+										<span class="tags">category</span>
+										<span class="timestamp"> 15/06/2019</span>
+									</div>
+									<p class="krs-feedList-item__summary">
+										Lorem ipsum dolor sit amet, consectetur adipisicing.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-headline">
+		<h2 id="propiedades">Propiedades</h2>
+		<span>opciones disponibles (javascript)</span>
+	</div>
+	<div class="container-section">
+		<table class="app-table">
+		  <tr class="app-table__header">
+		    <th>propiedades</th>
+		    <th>uso</th>
+		    <th>Valor esperado</th>
+		  </tr>
+		  <tr>
+		    <td>selector</td>
+		    <td>
+		    	<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">document.getElementById('krs-feedLists')</span> </div>
+		    	<div class="app-table__description">Se debe pasar un selector html válido.</div></td>
+		    <td>Node HTML</td>
+		  </tr>
+		  <tr>
+		    <td>home_url</td>
+		    <td>
+				<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">URL actual</span> </div>
+		    	<div class="app-table__description">url de dónde se obtendrán las entradas. Necesario si quieremos mostrar entradas de alguna otra web de blogger.</div></td>
+		    <td>string</td>
+		  </tr>
+		  <tr>
+		    <td>label</td>
+		    <td>
+				<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">ninguno</span> </div>
+		    	<div class="app-table__description">Nos permite eligir una etiqueta de alguna entrada para ser mostrada.</div></td>
+		    </td>
+		    <td>string</td>
+		  </tr>
+		  <tr>
+		    <td>length</td>
+		    <td>
+				<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">4</span> </div>
+		    	<div class="app-table__description">Nos permite eligir la cantidad de entradas a ser visualizadas.</div></td>
+		    <td>number</td>
+		  </tr>
+		  <tr>
+		    <td>render</td>
+		    <td>
+				<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">default</span> </div>
+		    	<div class="app-table__description">Nos permite manipular la estructura html de los items. <a href="#" class="app-btn" data-modal="modal1">ver valores y modo de uso</a></td>
+		    <td>string/html/function</td>
+		  </tr>
+		  <tr>
+		    <td>loader</td>
+		    <td>
+				<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">string/html</span> </div>
+		    	<div class="app-table__description">Nos permite mostrar un texto o html de carga.</td>
+		    <td>html/string</td>
+		  </tr>
+		  <tr>
+		    <td>summary</td>
+		    <td>
+				<div class="app-table__value"><strong>Por defecto: </strong><span class="app-btn">64</span> </div>
+		    	<div class="app-table__description">Cantidad de texto del resumen a ser mostrado</td>
+		    <td>number</td>
+		  </tr>
+		</table>
+	</div>
+</div>
+
+</div>
+<footer>
+	<div class="footer-copyright">Karasu themes © 2019</div>
+</footer>
+<script src="../../cdn/karasu-ui/karasu-ui-min.js"></script>
+<script>/*fix*/</script>
+</body>
+</html>
