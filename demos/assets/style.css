@@ -13,7 +13,7 @@ body {
 }
 
 header {
-	background: #2eCC71;
+	background: #2ECC71;
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -126,7 +126,7 @@ footer .footer-copyright {
 	color: rgba(255,255,255,.9);
 	font-weight: 500;
 	font-size: 14px;
-	background: #2eCC71;
+	background: #2ECC71;
 	line-height: 48px;
 }
 
@@ -158,7 +158,7 @@ footer .footer-copyright {
 	text-decoration: none;
 }
 .app-btn[href]:hover {
-	background: #2eCC71;
+	background: #2ECC71;
 	color: #fff;
 }
 
@@ -179,7 +179,7 @@ footer .footer-copyright {
 	box-shadow: 0 5px 10px -3px rgba(0,0,0,.36);
 }
 .brand:hover {
-	background: #2eCC71;
+	background: #2ECC71;
 	color: #fff;
 }
 .brand-icon {
@@ -201,7 +201,7 @@ footer .footer-copyright {
 	border-collapse: collapse;
 }
 .app-table__header {
-	background: #2eCC71;
+	background: #2ECC71;
 	color:#fff;
 	font-size: 16px;
 	font-weight: 500;
